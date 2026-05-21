@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { BrewRecipeCard, BrewHeader } from "@/src/components/BrewRecipeCard";
+import { BrewRecipeCard } from "@/src/components/BrewRecipeCard";
 import { FlatList, StyleSheet } from "react-native";
 import { MOCK_BREW_RECIPES } from "@/src/constants/mock";
 import { Colors } from "@/src/constants/colors";
