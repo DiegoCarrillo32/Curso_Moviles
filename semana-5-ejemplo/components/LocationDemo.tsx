@@ -20,7 +20,7 @@ const LocationDemo = () => {
         return;
       }
 
-      let currentLocation = await getCurrentPositionAsync();
+      let currentLocation = await getCurrentPositionAsync({});
       setLocation(currentLocation);
     } catch (error) {
       console.log(error);

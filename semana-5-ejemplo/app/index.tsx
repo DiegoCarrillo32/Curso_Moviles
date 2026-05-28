@@ -1,4 +1,4 @@
-import { AudioDemo } from "@/components/AudioDemo";
+import LocationDemo from "@/components/LocationDemo";
 import { View } from "react-native";
 
 export default function Index() {
@@ -11,8 +11,8 @@ export default function Index() {
       }}
     >
       {/* <CameraDemo /> */}
-      {/* <LocationDemo /> */}
-      <AudioDemo />
+      <LocationDemo />
+      {/* <AudioDemo /> */}
     </View>
   );
 }
